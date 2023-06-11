@@ -12,7 +12,7 @@ public class NewToursHomePage {
 	public NewToursHomePage(WebDriver driver) {
 		this.driver = driver;
 	}
-
+       // get method
 	public WebElement getRegisterLink() {
 		setRegisterLink();
 		return registerLink;
